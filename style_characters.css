@@ -72,6 +72,15 @@ body {
 	width: 100%;
 }
 
+.content {
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+}
+
 .banner h2 {
 	color: bisque;
 	font-size: 60px;
