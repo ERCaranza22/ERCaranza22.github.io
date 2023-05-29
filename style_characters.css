@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+	overflow: hidden;
+  overflow-style: none; 
+  scrollbar-width: none;
+  border: 0px dotted black;
+  overflow-y: scroll;
+}
+
+.banner {
+	width: 100%;
+	top: 90%;
+	height: 1120vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("honkai-star-rail_train.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 114px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: -15%;
+	right: 7%;
+}
+
+.logo {
+	width: 186px;
+	cursor: pointer;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar ul li::after {
+	content: '';
+	height: 3px;
+	width: 0;
+	background: linear-gradient(65deg, #42f5ce 0, #42f5ce 15%, #2f9df7 33%, #2f9df7 66%, #ef57fa 85%, #ef57fa 100%);
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transparent: 0.5s;
+}
+
+.navbar ul li:hover::after {
+	width: 100%;
+}
+
+.banner h2 {
+	color: bisque;
+	font-size: 60px;
+	text-align: center;
+}
+
+.banner h3 {
+	color: bisque;
+	font-size: 45px;
+	text-align: center;
+}
+
+.banner h4 {
+	color: aliceblue;
+	font-size: 25px;
+	text-align: center;
+}
+
+.banner h5 {
+	color: aliceblue;
+	font-size: 18px;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 100px;
+	font-weight: bold;
+	padding: 285px;
+	color: bisque;
+	text-align: center;
+	text-transform: capitalize;
+	display: block;
+}
+
+/*Honkai Star Rail Trailblazer*/
+
+.banner .hrs_trailblazer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	padding-bottom: 150px;
+	padding-top: 50px;
+}
+
+.banner .hrs_trailblazer .image {
+	height: 600px;
+	width: 600px;
+	border: 10px solid #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.banner .hrs_trailblazer .image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: .2s linear;
+}
+
+.banner .hrs_trailblazer .image:hover img {
+	transform: scale(1.1);
+}
+
+.MC_S {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 150px;
+	text-align: center;
+	
+}
+
+.MC_C {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 150px;
+	text-align: center;
+}
+
+/*Honkai Star Rail Characters*/
+
+.banner .hrs_character {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 200px;
+	justify-content: center;
+	padding-bottom: 150px;
+	padding-top: 100px;
+	float: left;
+}
+
+ .hrs_character h3 {
+	text-align: center;
+	margin-left: 0px;
+	padding: 20px;
+}
+
+.banner .hrs_character .image {
+	height: 600px;
+	width: 600px;
+	border: 10px solid #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.banner .hrs_character .image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: .2s linear;
+}
+
+.banner .hrs_character .image:hover img {
+	transform: scale(1.1);
+}
+
+.banner .popup-image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.9);
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
+
+.banner .popup-image span {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 60px;
+	font-weight: bolder;
+	color: #fff;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.banner .popup-image img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 5px solid #fff;
+	border-radius: 5px;
+	width: 680px;
+	object-fit: cover;
+}
+
+@media (max-width:768px) {
+	.banner .popup-image img {
+		width: 95%;
+	}
+}
+
+.text-on-the-right {
+	margin-top: 30px;
+	margin-left: 60px;
+	padding-right: 60px;
+}
+
+.text-on-the-right h3 {
+	margin-top: 90px;
+	margin-left: 0px;
+	
+}
