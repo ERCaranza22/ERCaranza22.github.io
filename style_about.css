@@ -18,7 +18,7 @@ body {
 
 .banner {
 	width: 100%;
-	height: 400vh;
+	height: 250vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("honkai-star-rail-stelle-1.jpg");
 	background-size: cover;
 	background-position: center;
@@ -73,7 +73,7 @@ body {
 .content {
 	width: 100%;
 	position: absolute;
-	top: 118%;
+	top: 109%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
