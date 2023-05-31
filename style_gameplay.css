@@ -73,7 +73,7 @@ body {
 .content {
 	width: 100%;
 	position: absolute;
-	margin-top: 116%;
+	margin-top: 118%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
@@ -81,8 +81,7 @@ body {
 
 .content h1 {
 	font-size: 100px;
-	margin-top: 50px;
-	padding-top: 50px;
+	margin-top: 100px;
 	color: bisque;
 }
 
