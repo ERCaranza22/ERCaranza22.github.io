@@ -73,7 +73,7 @@ body {
 .content {
 	width: 100%;
 	position: absolute;
-	top: 248%;
+	margin-top: 130%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
@@ -109,6 +109,7 @@ body {
   padding-bottom: 56.25%; 
   height: 0;
 }
+
 .container iframe{
   position: absolute;
   top: 5;
