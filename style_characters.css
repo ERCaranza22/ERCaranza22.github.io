@@ -72,9 +72,9 @@ body {
 }
 
 .content {
+	margin-top: 70%;
 	width: 100%;
 	position: absolute;
-	top: 67%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
