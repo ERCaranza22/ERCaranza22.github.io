@@ -1,3 +1,4 @@
+/*For all elements throughout the whole browser*/
 * {
 	margin: 0;
 	padding: 0;
@@ -5,10 +6,12 @@
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
+/*For hiding the scrollbar on the browser*/
 body::-webkit-scrollbar {
   display: none;
 }
 
+/*Hides the scrollbar, but you can still scroll up or down*/
 body {
 	overflow: hidden;
   overflow-style: none; 
@@ -17,6 +20,7 @@ body {
   overflow-y: scroll;
 }
 
+/*The main content throughout the whole page*/
 .banner {
 	width: 100%;
 	height: 1069vh;
@@ -26,6 +30,7 @@ body {
 	background-attachment: fixed;
 }
 
+/*Controls the navigation bar*/
 .navbar {
 	width: 85%;
 	margin: auto;
@@ -38,11 +43,13 @@ body {
 	right: 7%;
 }
 
+/*The logo image for the website*/
 .logo {
 	width: 186px;
 	cursor: pointer;
 }
 
+/*Designing the navbar*/
 .navbar ul li {
 	list-style: none;
 	display: inline-block;
@@ -71,6 +78,7 @@ body {
 	width: 100%;
 }
 
+/*Controls on the main content only*/
 .content {
 	width: 100%;
 	position: absolute;
@@ -114,7 +122,7 @@ body {
 	display: block;
 }
 
-/*Honkai Star Rail Trailblazer*/
+/*Class for the main protagonist*/
 
 .banner .hrs_trailblazer {
 	display: flex;
@@ -160,7 +168,7 @@ body {
 	text-align: center;
 }
 
-/*Honkai Star Rail Characters*/
+/*Class for the rest of the Characters*/
 
 .banner .hrs_character {
 	display: flex;
@@ -198,6 +206,7 @@ body {
 	transform: scale(1.1);
 }
 
+/*Controls the popup image*/
 .banner .popup-image {
 	position: fixed;
 	top: 0;
@@ -248,6 +257,7 @@ body {
 	margin-left: 0px;
 }
 
+/*Footer for the copyright*/
 footer {
 	background-color: darkslategrey;
 	color: white;
