@@ -19,7 +19,7 @@ body {
 
 .banner {
 	width: 100%;
-	height: 1120vh;
+	height: 1069vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("honkai-star-rail_train.jpg");
 	background-size: cover;
 	background-position: center;
@@ -246,5 +246,12 @@ body {
 .text-on-the-right h3 {
 	margin-top: 90px;
 	margin-left: 0px;
-	
+}
+
+footer {
+	background-color: darkslategrey;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-top: -35px;
 }
