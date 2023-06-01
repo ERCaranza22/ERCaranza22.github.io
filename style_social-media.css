@@ -221,3 +221,11 @@ button a:visited {
 	z-index: -1;
 	transition: 0.5s;
 }
+
+footer {
+	background-color: darkslategrey;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-top: -35px;
+}
