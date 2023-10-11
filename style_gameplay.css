@@ -13,10 +13,10 @@ body::-webkit-scrollbar {
 /*Hides the scrollbar, but you can still scroll up or down*/
 body {
 	overflow: hidden;
-  overflow-style: none; 
-  scrollbar-width: none;
-  border: 0px dotted black;
-  overflow-y: scroll;
+  	overflow-style: none; 
+  	scrollbar-width: none;
+  	border: 0px dotted black;
+  	overflow-y: scroll;
 }
 
 /*The main content throughout the whole page*/
@@ -81,7 +81,7 @@ body {
 .content {
 	width: 100%;
 	position: absolute;
-	margin-top: 126%;
+	margin-top: 135%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
