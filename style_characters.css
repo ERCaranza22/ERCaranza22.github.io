@@ -8,22 +8,21 @@
 
 /*For hiding the scrollbar on the browser*/
 body::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 /*Hides the scrollbar, but you can still scroll up or down*/
 body {
 	overflow: hidden;
-  overflow-style: none; 
-  scrollbar-width: none;
-  border: 0px dotted black;
-  overflow-y: scroll;
+	scrollbar-width: none;
+	border: 0px dotted black;
+	overflow-y: scroll;
 }
 
 /*The main content throughout the whole page*/
 .banner {
 	width: 100%;
-	height: 1069vh;
+	height: 1210vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("honkai-star-rail_train.jpg");
 	background-size: cover;
 	background-position: center;
@@ -71,7 +70,6 @@ body {
 	position: absolute;
 	left: 0;
 	bottom: -10px;
-	transparent: 0.5s;
 }
 
 .navbar ul li:hover::after {
@@ -180,7 +178,7 @@ body {
 	float: left;
 }
 
- .hrs_character h3 {
+.hrs_character h3 {
 	text-align: center;
 	margin-left: 0px;
 	padding: 20px;
@@ -263,5 +261,4 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 30px;
-	margin-top: -35px;
 }

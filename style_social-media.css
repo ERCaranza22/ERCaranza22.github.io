@@ -7,16 +7,15 @@
 
 /*For hiding the scrollbar on the browser*/
 body::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 /*Hides the scrollbar, but you can still scroll up or down*/
 body {
 	overflow: hidden;
-  overflow-style: none; 
-  scrollbar-width: none;
-  border: 0px dotted black;
-  overflow-y: scroll;
+	scrollbar-width: none;
+	border: 0px dotted black;
+	overflow-y: scroll;
 }
 
 /*The main content throughout the whole page*/
@@ -70,7 +69,6 @@ body {
 	position: absolute;
 	left: 0;
 	bottom: -10px;
-	transparent: 0.5s;
 }
 
 .navbar ul li:hover::after {
@@ -95,7 +93,6 @@ body {
 .content p {
 	margin: 40px 0px 10px 0px;
 	font-weight: 100;
-	line-weight: 25px;
 }
 
 /*Clicking the button*/
@@ -137,14 +134,14 @@ button:hover {
 
 button a:link {
 	color: floralwhite;
-  	background-color: transparent;
-  	text-decoration: none;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 button a:visited {
 	color: floralwhite;
-  	background-color: transparent;
-  	text-decoration: none;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 /*Designing the buttons below (separately)*/

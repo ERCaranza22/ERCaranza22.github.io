@@ -7,16 +7,15 @@
 
 /*For hiding the scrollbar on the browser*/
 body::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 /*Hides the scrollbar, but you can still scroll up or down*/
 body {
 	overflow: hidden;
-  	overflow-style: none; 
-  	scrollbar-width: none;
-  	border: 0px dotted black;
-  	overflow-y: scroll;
+	scrollbar-width: none;
+	border: 0px dotted black;
+	overflow-y: scroll;
 }
 
 /*The main content throughout the whole page*/
@@ -70,7 +69,6 @@ body {
 	position: absolute;
 	left: 0;
 	bottom: -10px;
-	transparent: 0.5s;
 }
 
 .navbar ul li:hover::after {
@@ -96,7 +94,6 @@ body {
 .content p {
 	margin: 40px 0px 10px 0px;
 	font-weight: 100;
-	line-weight: 25px;
 }
 
 .banner h2 {
@@ -107,17 +104,17 @@ body {
 }
 
 .container{
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 0;
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; 
+	height: 0;
 }
 
 .container iframe{
-  position: absolute;
-  top: 5;
-  width: 50%;
-  height: 50%;
+	position: absolute;
+	top: 5;
+	width: 50%;
+	height: 50%;
 	margin-left: -430px;
 }
 
